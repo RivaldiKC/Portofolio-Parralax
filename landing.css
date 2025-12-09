@@ -1,0 +1,368 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.ufo{
+	height: 100px; 
+	width: 100px; 
+	left: 300px;
+	top: 10px;
+	z-index: 5; 
+	/*background-color: red; */
+	position: absolute;
+	animation-name: example;
+  	animation-duration: 15s;
+  	animation-iteration-count: infinite;
+  	animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   { left:300px; top:10px;}
+  20%  { left:1000px; top:230px; transform: rotate(20deg);   }
+  55%  { left:1020px; top:230px; z-index: 3;}
+  75%  { left:300px; top:10px; transform: rotate(-20deg);  }
+  100% { left:300px; top:10px; z-index: 5;}
+}
+
+.property-name{
+	 
+	position: absolute;
+	z-index: 4;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 50px;
+	color:#DDDDF0;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+
+/*.background-gambar{
+	position: relative;
+	height: 2000px;
+	width: 100%;
+	background-image:url("picture/gambar4.png");
+	background-size: cover;
+  	background-repeat:   no-repeat;
+  	background-position: center center ;
+}
+*/
+
+
+
+.property3 img{
+	transition: transform 0.3s ease; /* Animasi halus */
+}
+
+.property3:hover img{
+	transform: scale(1.2); /* Membesarkan gambar 20% */
+}
+
+
+.property3{
+	 
+	position: absolute; 
+	top: 300px; 
+	left: 200px;
+	z-index: 6;
+}
+
+.biodata{
+	 
+	position: absolute; 
+	color: white;  
+	z-index: 6; 
+	top: 400px; 
+	left: 700px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.property4 img{
+	transition: transform 0.3s ease; /* Animasi halus */
+}
+
+.property4:hover img{
+	transform: scale(1.2); /* Membesarkan gambar 20% */
+}
+
+.property4{
+	 
+	position: absolute; 
+	top: 900px; 
+	right: 250px;
+	z-index: 7;
+
+}
+
+.cv{
+	 
+	position: absolute; 
+	color: white;  
+	width: 400px;
+	z-index: 7; 
+	top: 1000px; 
+	left: 200px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.mp{
+	 
+	position: absolute; 
+	color: white;  
+	z-index: 8; 
+	font-size: 40px;
+	top: 1300px; 
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-family: 'Orbitron', sans-serif;
+}
+
+.pj1 {
+	position: absolute;
+	z-index: 6; 
+	top: 1600px; 
+	left: 100px;
+	
+}	 
+
+.pj1  video{
+	transition: transform 0.5s ease; /* Animasi halus */
+}
+
+.pj1:hover video{
+	transform: scale(1.5); /* Membesarkan gambar 100% */
+	z-index: 20;
+	position: absolute;
+}
+
+.pj2 {
+	position: absolute;  
+	z-index: 6; 
+	top: 1750px; 
+	left: 400px;
+	
+}	 
+
+.pj3 {
+	position: absolute; 
+	z-index: 6; 
+	top: 1600px; 
+	left: 690px;
+	
+}	 
+
+.pj4 {
+	position: absolute;  
+	z-index: 6; 
+	top: 1750px; 
+	left: 980px;
+	
+}	 
+
+.project-11 {
+	position: absolute;  
+	z-index: 6; 
+	top: 1600px; 
+	left: 850px;
+}	 
+
+.project-12 {
+	position: absolute;  
+	z-index: 6; 
+	top: 2000px; 
+	left: 50px;
+}	 
+
+.project-13 {
+	position: absolute;  
+	z-index: 6; 
+	top: 2450px; 
+	left: 850px;
+}	 
+
+.project-14 {
+	position: absolute;  
+	z-index: 6; 
+	top: 2800px; 
+	left: 50px;
+}	 
+
+.project-21 {
+	position: absolute;  
+	z-index: 6; 
+	top: 3250px; 
+	left: 850px;
+}	 
+
+.project-22 {
+	position: absolute;  
+	z-index: 6; 
+	top: 3620px; 
+	left: 50px;
+}	 
+
+.project-23 {
+	position: absolute;  
+	z-index: 6; 
+	top: 4050px; 
+	left: 850px;
+}	 
+
+.ft{
+	 
+	position: absolute; 
+	color: black;  
+	z-index: 8; 
+	top: 5450px; 
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
+.property-bulan img{
+	transition: transform 0.3s ease; /* Animasi halus */
+}
+
+.property-bulan:hover img{
+	transform: scale(1.2); /* Membesarkan gambar 20% */
+}
+
+
+.property-bulan{
+	 
+	position: absolute; 
+	top: 2400px; 
+	left: 1050px;
+	z-index: 6;
+}
+
+.property-satelit img{
+	transition: transform 0.3s ease; /* Animasi halus */
+}
+
+.property-satelit:hover img{
+	transform: scale(1.2); /* Membesarkan gambar 20% */
+}
+
+
+/*.property-satelit{
+	 
+	position: absolute; 
+	top: 2350px; 
+	left: 150px;
+	z-index: 6;
+}*/
+
+
+/*.property-awan img{
+	transition: transform 0.3s ease; *//* Animasi halus */
+/*}*/
+
+/*.property-awan:hover img{
+	transform: scale(1.2);*/ /* Membesarkan gambar 20% */
+/*}*/
+
+
+/*.property-awan{
+	 
+	position: absolute; 
+	top: 4850px; 
+	left: 100px;
+	z-index: 6;
+}*/
+
+/*.property-awan2 img{
+	transition: transform 0.3s ease;*/ /* Animasi halus */
+/*}*/
+
+/*.property-awan2:hover img{
+	transform: scale(1.2);*/ /* Membesarkan gambar 20% */
+/*}*/
+
+
+/*.property-awan2{
+	 
+	position: absolute; 
+	top: 4800px; 
+	left: 300px;
+	z-index: 6;
+}*/
+
+/*.property-awan-kiri img{
+	transition: transform 0.3s ease;*/ /* Animasi halus */
+/*}*/
+
+/*.property-awan-kiri:hover img{
+	transform: scale(1.2);*/ /* Membesarkan gambar 20% */
+/*}*/
+
+
+/*.property-awan-kiri{
+	 
+	position: absolute; 
+	top: 4800px; 
+	left: 850px;
+	z-index: 6;
+}*/
+
+
+.property-awan-kiri-2{
+	top: 4600px; 
+	left: 1350px;
+	z-index: 6; 
+	/*background-color: red; */
+	position: absolute;
+	animation-name: awan-kiri-2;
+  	animation-duration: 50s;
+  	animation-iteration-count: 2;
+  	animation-delay: 2s;
+}
+
+@keyframes awan-kiri-2 {
+  0%   { left:1350px; top:4600px;}
+  /*25%  { left:850px; top:5000px;  }*/
+  /*60%  { left:450px; top:4700px; }*/
+  /*75%  { left:450px; top:5000px;  }*/
+  100% { left:-500px; top:4600px; }
+}
+
+.property-awan-kiri{
+	top: 4900px; 
+	left: 1350px;
+	z-index: 6; 
+	/*background-color: red; */
+	position: absolute;
+	animation-name: awan-kiri;
+  	animation-duration: 30s;
+  	animation-iteration-count: infinite;
+  	animation-delay: 10s;
+}
+
+@keyframes awan-kiri {
+  0%   { left:1350px; top:4900px;}
+  /*25%  { left:850px; top:5000px;  }*/
+  /*60%  { left:450px; top:5000px; }*/
+  /*75%  { left:450px; top:5000px;  }*/
+  100% { left:-500px; top:4900px; }
+}
+
+
+/*RESPONSIF*/
+
+@media screen and (max-width: 1200px) {
+  div.main {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.h1 {
+  	display: none;
+  }
+}

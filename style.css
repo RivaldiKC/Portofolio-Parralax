@@ -1,0 +1,135 @@
+/* if you do not have this, you will see a 
+vertical scrollbar on the .parallax div */
+body {
+  margin: 0;
+}
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+
+  perspective: 1px;
+}
+
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+/*position layer*/
+.layer1 {
+  transform: translateZ(0px);
+}
+
+.layer2 {
+  transform: translateZ(-3px) translateX(750px) ;
+}
+
+.layer3 {
+  transform: translateZ(-2px) translateX(-5px) ;
+}
+
+.layer4 {
+  transform: translateZ(-1px) translateX(400px) ;
+}
+
+.layer5 {
+  transform: translateZ(-1px);
+}
+.layer6 {
+  transform: translateZ(-2px);
+}
+.layer7 {
+  transform: translateZ(-3px) ;
+}
+.layer1 {
+  transform: translateZ(0px);
+}
+
+
+
+
+
+
+/* specific to this implementation */
+div {
+  font-size: 50px;
+  text-align: center;
+}
+
+.parallax-layer.layer1 {
+  width: 100%;
+  height: 100rem;
+
+  background-color: #26A3B6;
+}
+
+.parallax-layer.layer2 {
+  top: 25rem;
+
+
+  width: 25%;
+  height: 25rem;
+
+  background-color: green;
+}
+
+.parallax-layer.layer3 {
+  top: 40rem;
+
+ width: 25%;
+  height: 25rem;
+  background-color: blue;
+}
+
+.parallax-layer.layer4 {
+  top: 20rem;
+
+
+  width: 25%;
+  height: 25rem;
+  background-color: yellow;
+}
+
+.parallax-layer.layer5 {
+  top: 100rem;
+
+
+  width: 25%;
+  height: 25rem;
+
+  background-color: red;
+}
+
+.parallax-layer.layer6 {
+  top: 130rem;
+
+
+  width: 25%;
+  height: 25rem;
+  background-color: #A60EAB;
+}
+
+.parallax-layer.layer7 {
+  top: 150rem;
+
+ width: 25%;
+  height: 25rem;
+  background-color: #0EAB26;
+}
+
+.parallax-layer.layer8 {
+  top: 100rem;
+
+  width: 100%;
+  height: 100rem;
+
+  background-color: #AB990E;
+}
